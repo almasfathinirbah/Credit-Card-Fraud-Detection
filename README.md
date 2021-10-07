@@ -16,7 +16,7 @@
   * Confussion Matrix;
   
     ![Confussion Matrix](https://user-images.githubusercontent.com/85482667/136394809-0371c7b4-dd4b-4503-9e4b-5c75e53d53bc.png)
-* Hyperparameter tuning in the Random Forest does not affect to increase the F1 score.
+* Hyperparameter Tuning in the Random Forest does not affect to increase the F1 score.
 
   ![Hyperparameter Tuning](https://user-images.githubusercontent.com/85482667/136393750-6842d277-90e9-4111-b802-17d7bcf60c68.png)
 * Feature Important in Random Forest.
