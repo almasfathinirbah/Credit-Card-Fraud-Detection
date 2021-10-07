@@ -12,7 +12,7 @@
   * F1 Score = 79%
   * AUC score = 99%
   * Confussion Matrix;
-    ![Confussion Matrix](![image](https://user-images.githubusercontent.com/85482667/136393032-f48227a7-f262-4fed-966d-5e102bc7a56f.png))
+    ![Confussion Matrix](![image](https://user-images.githubusercontent.com/85482667/136393032-f48227a7-f262-4fed-966d-5e102bc7a56f.png)
 * Hyperparameter tuning in the random forest does not affect to increase the F1 score.
   ![Hyperparameter Tuning]![image](https://user-images.githubusercontent.com/85482667/136393750-6842d277-90e9-4111-b802-17d7bcf60c68.png)
 * Feature Important in Random Forest Classifier.
