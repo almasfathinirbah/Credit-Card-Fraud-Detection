@@ -4,7 +4,7 @@
 * Created several models that we're able to predict credit card fraud and chose the best model.
 
 ## Result
-* Supervised machine learning used that are Adaboost, Decision Tree, Gaussian Naive Bayes, XGBoost, K Neighbor, Logistic Regression, and Random Forest.
+* Supervised machine learning used that are Ada Boost, Decision Tree, Gaussian Naive Bayes, XGBoost, K Neighbor, Logistic Regression, and Random Forest.
 
   ![Supervised machine learning](https://user-images.githubusercontent.com/85482667/136396056-ac6ce4d9-427c-423b-b7be-7927e4b620e2.png)
 
