@@ -1,8 +1,7 @@
 # Credit-Card-Fraud-Detection
 
-## Objecttive
+## Objective
 * Created several models that we're able to predict credit card fraud and chose the best model.
-* Find out the business impact of the insight analysis did.
 
 ## Result
 * Supervised machine learning used that are Adaboost, Decision Tree, Gaussian Naive Bayes, XGBoost, K Neighbor, Logistic Regression, and Random Forest.
