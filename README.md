@@ -49,10 +49,27 @@ Data Related to Fraud Information
 
 ## Exploratory Data Analysis
 
+
 ## Modelling
+### Preparation
+* Drop 20 unused columns, used 500.000 rows only, and create dummy variables.
+* Normalize by Robust Scaler which scales the data according to the quantile range.
+* Train data size is 80% of observation and Test data size is 20% of observation.
+* Oversampling the observation of fraud transaction.
+  
+  ![image](https://user-images.githubusercontent.com/85482667/136617100-8b1995ee-c119-4388-871b-fc88bd3bf0bf.png)
+
+* Check the correlation matrix.
+ 
+  ![image](https://user-images.githubusercontent.com/85482667/136616839-c3c6fea1-f865-4987-ad6c-4614ce96516c.png)
+  
+### Training and Evaluation
+
 * Supervised machine learning used that are Ada Boost, Decision Tree, Gaussian Naive Bayes, XGBoost, K Neighbor, Logistic Regression, and Random Forest.
 
   ![Supervised machine learning](https://user-images.githubusercontent.com/85482667/136396056-ac6ce4d9-427c-423b-b7be-7927e4b620e2.png)
+  
+#### Best Modelling
 
 * Random Forest is the best supervised machine learning model in this project.
   * Precision = 86%
