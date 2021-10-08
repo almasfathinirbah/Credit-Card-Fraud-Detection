@@ -3,10 +3,53 @@
 ## About
 Created as a showcase project from Bootcamp Data Science Dibimbing. Simulated credit card transaction dataset containing legitimate and fraud transactions, the goal of this project was to build the best predictive model to predict the fraud transaction in order to help prevent fraud transactions in the future.
 
-## Objective
+## Business Understanding
 * Created several models that we're able to predict credit card fraud and chose the best model.
 
-## Result
+## Data Understanding
+* This is a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000   customers doing transactions with a pool of 800 merchants.
+* Source Data: https://www.kaggle.com/almasfathinirbah/credit-card-fraud-detection/data
+* Data Related to Customer Account Information
+	* First name
+	* Last name
+	* Date of birth
+	* Trans date trans time
+	* CC number
+	* Amount
+	* Trans number
+	* Unix time
+* Data Related to Customer Demographic Information
+	* Gender
+	* Street
+	* Ciy
+	* State
+	* Zip
+	* Lat
+	* Long
+	* City pop
+	* Job
+* Data Related to Merchant Information
+	* Merchant
+	* Category
+	* Merchant latitude
+	* Merchant longitude
+Data Related to Fraud Information
+	* Merchant longitude
+
+## Data preparation
+* Code Used:
+* Python Version: 3.9.7
+* Packages: Pandas, Numpy, Matplotlib, Seaborn, Sklearn, and Feature Engine
+
+## Data Cleansing
+* Check for each column and find if any column is redundant or useless.
+* Check for missing values.
+* Check if the data format is already suitable for algorithm.
+* Check for value that are not consistent with general common sense.
+
+## Exploratory Data Analysis
+
+## Modelling
 * Supervised machine learning used that are Ada Boost, Decision Tree, Gaussian Naive Bayes, XGBoost, K Neighbor, Logistic Regression, and Random Forest.
 
   ![Supervised machine learning](https://user-images.githubusercontent.com/85482667/136396056-ac6ce4d9-427c-423b-b7be-7927e4b620e2.png)
@@ -25,3 +68,10 @@ Created as a showcase project from Bootcamp Data Science Dibimbing. Simulated cr
 * Feature Important in Random Forest.
 
   ![Feature Important](https://user-images.githubusercontent.com/85482667/136394953-6d01b3b8-5003-4b9f-b1b6-ad4f20f8a44f.png)
+
+## Summary
+* The recommended machine learning model for detecting fraudulent transactions is the random forest because it has the best F1 score, RMSE, MAE, and ROC curve analysis.
+* Hyperparameter tuning in the random forest does not affect to increase the F1 score.
+* The 2 highest feature importances from random forest are amount transaction and transation hour.
+
+  ![image](https://user-images.githubusercontent.com/85482667/136614541-f0025640-32cf-497c-99b0-7ab4fc67ee03.png)
