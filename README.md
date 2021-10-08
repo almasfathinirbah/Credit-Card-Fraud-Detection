@@ -31,8 +31,8 @@ Created as a showcase project from Bootcamp Data Science Dibimbing. Simulated cr
 * Data Related to Merchant Information
 	* Merchant : merchant name
 	* Category : merchant's category
-	* Merchant latitude : customer's latitude
-	* Merchant longitude : customer's longitude
+	* Merchant latitude : merchant's latitude address
+	* Merchant longitude : merchant's longitude address
 Data Related to Fraud Information
 	* Is fraud : transaction clasification wether fraud or not
 
