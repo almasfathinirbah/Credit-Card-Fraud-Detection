@@ -8,7 +8,7 @@ Created as a showcase project from Bootcamp Data Science Dibimbing. Simulated cr
 
 ## Data Understanding
 * This is a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000   customers doing transactions with a pool of 800 merchants.
-* Source Data: https://www.kaggle.com/almasfathinirbah/credit-card-fraud-detection/data
+* Source Data: https://www.kaggle.com/kartik2112/fraud-detection
 * Data Related to Customer Account Information
 	* First name : customer's first name
 	* Last name : customer's last name
