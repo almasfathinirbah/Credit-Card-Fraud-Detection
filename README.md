@@ -10,31 +10,31 @@ Created as a showcase project from Bootcamp Data Science Dibimbing. Simulated cr
 * This is a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000   customers doing transactions with a pool of 800 merchants.
 * Source Data: https://www.kaggle.com/almasfathinirbah/credit-card-fraud-detection/data
 * Data Related to Customer Account Information
-	* First name
-	* Last name
-	* Date of birth
-	* Trans date trans time
-	* CC number
-	* Amount
-	* Trans number
-	* Unix time
+	* First name : customer's first name
+	* Last name : customer's last name
+	* Date of birth : customer's date of birth
+	* Trans date trans time : customer's trans date trans time
+	* CC number : customer's credit card number
+	* Amount : amount of transaction
+	* Trans number : transaction number
+	* Unix time : unique time number 
 * Data Related to Customer Demographic Information
-	* Gender
-	* Street
-	* Ciy
-	* State
-	* Zip
-	* Lat
-	* Long
-	* City pop
-	* Job
+	* Gender : customer's gender 
+	* Street : customer's street 
+	* Ciy : customer's city
+	* State : customer's state
+	* Zip : customer's zip
+	* Lat : customer's latitude address
+	* Long : customer's longitude address
+	* City pop : customer's city population
+	* Job : customer's job
 * Data Related to Merchant Information
-	* Merchant
-	* Category
-	* Merchant latitude
-	* Merchant longitude
+	* Merchant : merchant name
+	* Category : merchant's category
+	* Merchant latitude : customer's latitude
+	* Merchant longitude : customer's longitude
 Data Related to Fraud Information
-	* Merchant longitude
+	* Is fraud : transaction clasification wether fraud or not
 
 ## Data preparation
 * Code Used:
@@ -73,5 +73,3 @@ Data Related to Fraud Information
 * The recommended machine learning model for detecting fraudulent transactions is the random forest because it has the best F1 score, RMSE, MAE, and ROC curve analysis.
 * Hyperparameter tuning in the random forest does not affect to increase the F1 score.
 * The 2 highest feature importances from random forest are amount transaction and transation hour.
-
-  ![image](https://user-images.githubusercontent.com/85482667/136614541-f0025640-32cf-497c-99b0-7ab4fc67ee03.png)
