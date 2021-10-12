@@ -48,7 +48,33 @@ Data Related to Fraud Information
 * Check for value that are not consistent with general common sense.
 
 ## Exploratory Data Analysis
+### Imbalance of Fraud Transaction Observation 
 
+![image](https://user-images.githubusercontent.com/85482667/136994871-7e08d730-a7cd-4f65-9027-352367684f58.png)
+
+### Gender vs Amount Transaction
+
+![image](https://user-images.githubusercontent.com/85482667/136995431-cb9e1b9c-e50c-4740-b70f-aed2f7cccb08.png)
+
+### Transaction Day of Week
+
+![image](https://user-images.githubusercontent.com/85482667/136995491-44000244-3a4b-477f-a208-f8b70199e90a.png)
+
+### Age Group
+
+![image](https://user-images.githubusercontent.com/85482667/136995641-56554f23-8526-4889-9f52-be4b1544aeca.png)
+
+### Fraud Transaction (% Group) by Category
+
+![image](https://user-images.githubusercontent.com/85482667/136995846-44c04489-ef0d-4efe-98f2-dbd20ea4789a.png)
+
+### Amount Distribution
+
+![image](https://user-images.githubusercontent.com/85482667/136995961-ab935ccf-08b2-46bb-b118-de0785efd438.png)
+
+### Transaction Distribution
+
+![transaction distribution](https://user-images.githubusercontent.com/85482667/136996167-5bde524a-db29-4302-8105-91a9014a6c99.png)
 
 ## Modelling
 ### Preparation
