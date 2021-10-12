@@ -1,4 +1,4 @@
-# Credit-Card-Fraud-Detection
+# Credit Card Fraud Detection with Python
 
 ## About
 Created as a showcase project from Bootcamp Data Science Dibimbing. Simulated credit card transaction dataset containing legitimate and fraud transactions, the goal of this project was to build the best predictive model to predict the fraud transaction in order to help prevent fraud transactions in the future.
